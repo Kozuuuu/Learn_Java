@@ -100,4 +100,23 @@ comment*/
     if (x == y) {
         System.out.println("x is equal to y");
     }
-//C.
+//C. print if x is equal to y otherwise print x is not equal to y
+    int x = 50, y =50;
+    if (x == y) {
+        System.out.println("x is equal to y");
+    } else {
+        System.out.println("x is not equal to y");
+    }
+//D. print if x is equal to y otherwise print x is greater then y, other wise, print x is lesser than y\
+    int x = 50, y =50;
+    if (x == y) {
+        System.out.println("x is equal to y");
+    } else if (x > y) {
+        System.out.println("x is greater then y");
+    } else {
+        System.out.println("x is lesser than y");
+    }
+//E. This is a "short hand if...else statement" (ternary operator:)
+    int time 20;
+    String result = (time < 18) ? "Goodmorning." : "Goodevening.";
+    System.out.println(result);
