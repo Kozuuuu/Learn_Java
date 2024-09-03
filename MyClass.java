@@ -278,7 +278,7 @@ comment*/
     public static void main(String[] args) {
       System.out.println(myMethod(3));
     }
-    
+
 //E. Follow the comments to insert the missing parts of the code below:
 // Create a checkAge() method with an integer variable called age
     static void checkAge
@@ -295,3 +295,54 @@ comment*/
         // Call the checkAge method and pass along an age of 20
         checkAge(20);
     }
+
+// == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS
+//A. Create a class called MyClass.
+    public class MyClass
+
+//B. Create an object of MyClass called myObj.
+    MyClass myObj = new MyClass();
+
+//C. Use myObj to access and print the value of the x attribute of MyClass. "myObj.x"
+    public class MyClass {
+        int x = 5;
+        public static void main(String[] args) {
+            MyClass myObj = new MyClass();
+            System.out.println(myObj.x);
+        }
+    }
+//D. Call myMethod on the object.
+    public class MyClass {
+        public void myMethod() {
+            System.out.println("Hello World");
+        }
+        public static void main(String[] args) {
+            MyClass myObj = new MyClass();
+            myObj.myMethod();
+        }
+    }
+
+//E. Create and call a class constructor of MyClass AND Follow the comments to insert the missing parts of the code below:
+    // Create a MyClass class
+    public class MyClass { 
+        int x;  // Create a class attribute x public
+    // Create a class constructor for the MyClass class
+        public MyClass () {
+            x = 5;  // Set the initial value for the class attribute x to 5
+        }
+        public static void main(String[] args) {
+            // Create an myObj object of class MyClass (This will call the constructor)
+            MyClass myObj = new MyClass();  
+            // Print the value of x
+            System.out.println(myObj.x);
+        }
+    }
+
+//F. The class below should not be inherited by other classes. Add the correct modifier:
+    final class MyClass
+
+//G. Fill in the missing parts to import the java.util.Scanner class from the Java API:
+    import java.util.Scanner;
+
+//H. The Car class should inherit the attributes and methods from the Vehicle class. Add the correct keyword to make this possible. "extends"
+    class Car extends Vehicle
