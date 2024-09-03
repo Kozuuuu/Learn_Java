@@ -210,3 +210,36 @@ comment*/
     for (String name : names) {
         System.out.println(name);
     }
+
+//B. Create an array string called cats
+    String[] cats = {"Whiskers", "Muffy", "Socks", "Daisy"};
+
+//C. Print the third element of the cats array
+    System.out.println(cats[2]);
+
+//D. Change the value from "Volvo" to "Opel", in the cars array.
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    cars[0] = "Opel";
+    System.out.priln(Cars(0));
+
+//E. Find out how many elements the cars array have.
+    String[] cars = {"Volvo", "BMW", "Ford"};
+    System.out.println(
+    cars.length
+    );
+
+// F. Loop through the items in the cars array.
+    String[] cars = {"Volvo", "BMW", "Ford"};
+        (String i : ) {
+        System.out.println(i);
+    }
+
+//G. a two-dimensional array.
+    int[][] numbers = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
+
+
+// == JAVA METHODS == JAVA METHODS == JAVA METHODS == JAVA METHODS == JAVA METHODS == JAVA METHODS == JAVA METHODS == JAVA METHODS
