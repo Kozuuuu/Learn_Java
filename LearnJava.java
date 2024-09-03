@@ -31,7 +31,7 @@ comment*/
     int MyNum = 10;
     float MyFloatNum = 10.23f;
     char MyLetter = 'A';
-    Boolean MyBooleanNum = false;
+    boolean MyBooleanNum = false;
     String MyText = "Hello World";
 //B. Type Casting - converts the following double type to an int type
     double MyDouble = 9.65f;
@@ -69,4 +69,35 @@ comment*/
     System.out.println(indexPosition.indexOf('e'));
 
 // == JAVA MATH == JAVA MATH == JAVA MATH == JAVA MATH == JAVA MATH == JAVA MATH == JAVA MATH == JAVA MATH == JAVA MATH == JAVA MATH == JAVA MATH == JAVA MATH == JAVA MATH == JAVA MATH
+//A. This is a method to find the highest value of x and y    
+    int x = 5;
+    int y = 10;
+    Math.max(x, y);
+//B. This is the method to find the square root of x
+    int x = 81;
+    Mat.sqrt(x);
+//C. the correct method to return a random number between 0 (inclusive), and 1 (exclusive).
+    Math.random();
 
+// JAVA BOOLEANS == JAVA BOOLEANS == JAVA BOOLEANS == JAVA BOOLEANS == JAVA BOOLEANS == JAVA BOOLEANS == JAVA BOOLEANS == JAVA BOOLEANS == JAVA BOOLEANS == JAVA BOOLEANS ==
+//A. print values true and false
+    boolean isJavaFun = true;
+    boolean isJavaNotFun = false;
+    System.out.println(isJavaFun);
+    System.out.println(isJavaNotFun);
+//B. print the value true:
+    int x = 5, y = 4;
+    System.out.println(x > y);
+
+// == JAVA IF ELSE == JAVA IF ELSE == JAVA IF ELSE == JAVA IF ELSE == JAVA IF ELSE == JAVA IF ELSE == JAVA IF ELSE == JAVA IF ELSE == JAVA IF ELSE == JAVA IF ELSE == JAVA IF ELSE
+//A. print if x is greater than y
+    int x = 50, y = 10;
+    if (x > y) {
+        System.out.println("x is greater than y");
+    }
+//B. print if x is equal to y
+    int x = 50, y =50;
+    if (x == y) {
+        System.out.println("x is equal to y");
+    }
+//C.
