@@ -173,9 +173,7 @@
     }
 
 //12. Classes == Classes == Classes == Classes == Classes == Classes == Classes == Classes == Classes == Classes == Classes == Classes == Classes ==
-    Encapsulation: Use private variables and public getters/setters.
-    java
-    Copy code
+//A. Encapsulation: Use private variables and public getters/setters.
     class Person {
         private String name;
     
@@ -187,9 +185,8 @@
             this.name = name;
         }
     }
-    Abstract Classes:
-    java
-    Copy code
+
+//B. Abstract Classes:
     abstract class Animal {
         abstract void makeSound();
     }
@@ -201,17 +198,13 @@
     }
 
 //13. Packages == Packages == Packages == Packages == Packages == Packages == Packages == Packages == Packages == Packages == Packages == Packages ==
-    Organize Classes: Group related classes using packages.
-    java
-    Copy code
+//A. Organize Classes: Group related classes using packages.
     package com.example.myapp;
     
     public class MyClass {
         // class code
     }
-    Importing Packages:
-    java
-    Copy code
+//B. Importing Packages:
     import java.util.Scanner;
     
 //14. Working with Files
@@ -227,6 +220,7 @@
         System.out.println(line);
     }
     reader.close();
+    
 //B. Writing Files:
     import java.io.FileWriter;
     import java.io.IOException;
@@ -234,10 +228,9 @@
     FileWriter writer = new FileWriter("filename.txt");
     writer.write("Hello, World!");
     writer.close();
-    15. Working with APIs
-    HTTP Requests: Use libraries like HttpURLConnection or HttpClient.
-    java
-    Copy code
+    
+// 15. Working with APIs == Working with APIs == Working with APIs == Working with APIs == Working with APIs == Working with APIs == Working with APIs ==
+//HTTP Requests: Use libraries like HttpURLConnection or HttpClient.
     import java.net.HttpURLConnection;
     import java.net.URL;
     
