@@ -30,9 +30,13 @@ comment*/
 //This is all called primitive data types//
     int MyNum = 10;
     float MyFloatNum = 10.23f;
+    double MyDouble = 3.14159; 
     char MyLetter = 'A';
     boolean MyBooleanNum = false;
+//This is non-primitive data types//
     String MyText = "Hello World";
+    //arrays
+    //classes
 
 //B. Type Casting - converts the following double type to an int type
     double MyDouble = 9.65f;
