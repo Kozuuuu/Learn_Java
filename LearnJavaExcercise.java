@@ -297,8 +297,8 @@ comment*/
     }
 
 // == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS == JAVA CLASS/OBJECTS
-//A. Create a class called MyClass.
-    public class MyClass
+//A. Create a class called LearnJavaExcercise.
+    public class LearnJavaExcercise
 
 //B. Create an object of MyClass called myObj.
     MyClass myObj = new MyClass();
@@ -346,3 +346,22 @@ comment*/
 
 //H. The Car class should inherit the attributes and methods from the Vehicle class. Add the correct keyword to make this possible. "extends"
     class Car extends Vehicle
+
+// == JAVA EXCEPTIONS == JAVA EXCEPTIONS == JAVA EXCEPTIONS == JAVA EXCEPTIONS == JAVA EXCEPTIONS == JAVA EXCEPTIONS == JAVA EXCEPTIONS == JAVA EXCEPTIONS
+//A. Insert the missing parts to handle the error in the code below.
+    try {
+        int[] myNumbers = {1, 2, 3};
+        System.out.println(myNumbers[10]);
+    } catch (Exception e) {
+        System.out.println("Something went wrong.");
+    }
+
+//B. Insert the missing keyword to execute code, after try..catch, regardless of the result.
+try {
+    int[] myNumbers = {1, 2, 3};
+    System.out.println(myNumbers[10]);
+  } catch (Exception e) {
+    System.out.println("Something went wrong.");
+  } finally {
+    System.out.println("The 'try catch' is finished.");
+  }
